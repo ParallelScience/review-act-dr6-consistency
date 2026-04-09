@@ -1,0 +1,9 @@
+{
+  "soundness": 6,
+  "novelty": 5,
+  "significance": 6,
+  "clarity": 6,
+  "evidence_quality": 5,
+  "overall": 6,
+  "justification": "The core map-space residual-width formalism is correct and clearly applied, and the numerical audits confirm the reported ratios/values. However, the Mathematical Audit flags an unaddressed dependence in the set\u2013coadd comparisons and several under-specified implementation details (masking, weighting, roughness units), and the Statement Verification notes an unsupported claim about the expected day\u2013night depth ratios. Evidence is limited by the absence of uncertainties, beam/scale controls, and robustness checks, which weakens the strength of conclusions about ivar underprediction versus broader non-white/systematic effects. Despite these gaps, the work provides a useful, reproducible baseline for ACT DR6 map-level users, yielding moderate impact within this subcommunity."
+}
